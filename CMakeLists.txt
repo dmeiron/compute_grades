@@ -3,4 +3,4 @@ project(compute_grades)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(compute_grades main.cpp)
+add_executable(compute_grades main.cpp grade.cpp median.cpp read_hw.cpp)
